@@ -19,7 +19,7 @@ class postHandler
         {
             $user = new addressBook();
             $columnNames->columnNames();
-            foreach (array_slice($columnNames, 1) as $key => $value) 
+            foreach (array_slice($columnNames, 0) as $key => $value) 
             {
                 $user->setValue($key, $value);
              //   $user->set.$value.($_POST["$value"]);

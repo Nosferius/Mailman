@@ -1,0 +1,22 @@
+<div class="container">
+    <h2> Add User</h2>
+
+    <form action="?action=<?= $this->vars['action'] ?>" method="post">
+        <?php
+        $user = new addressBook();
+        $columnNames->columnNames();
+        foreach (array_slice($columnNames, 0) as $key => $value)
+        {
+            print('<div class="formValues">
+                    <label for="$column">
+                        <input type="text" name="$column" class="formInput">
+                    </label>
+                </div>');
+            }
+        ?>
+
+        <input type="hidden" name="action" value="addUser">
+
+        <input type="submit" class="center">
+    </form>
+</div>

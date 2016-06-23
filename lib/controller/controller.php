@@ -58,7 +58,7 @@ class controller
      */
     private function loadView($view)
     {
-        $code = file_get_contents("lib/View/" . $view . ".phtml");
+        $code = file_get_contents("lib/view/" . $view . ".phtml");
         return eval ("?>" . $code);
     }
 

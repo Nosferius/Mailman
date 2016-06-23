@@ -1,0 +1,119 @@
+body {
+    background-color: lightblue;
+}
+
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 25px;
+    max-height: 75px;
+    padding: 4px 0 0 2px;
+    width: 100%;
+    background-color: dimgray;
+    border-bottom: 1px solid black;
+}
+
+.flowcontainer {
+    position: relative;
+    top: 21px;
+    margin-left: 5%;
+    margin-right: 5%;
+    max-width: 90%;
+}
+
+.container {
+    /*height: 450px;*/
+    overflow: auto;
+    float: left;
+    padding: 5px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    min-width: 500px;
+    max-width: 46%;
+    border: 1px solid gray;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-image: url("single_bar_sheet_music_empty_50opacity.png");
+    background-color: whitesmoke;
+}
+
+.center {
+    min-width: 60px;
+    max-width: 20%;
+    margin-left: 45%;
+}
+
+a.edit {
+    border-style: none;
+    color: black;
+}
+table  {
+    display: block;
+    width: auto;
+    border-style: groove;
+    background-color: bisque;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 8px;
+}
+td {
+    border-style: groove;
+    border-width: 1px;
+
+}
+th {
+    border-style: groove;
+    border-width: 1px;
+
+}
+.override {
+    width: 80px;
+}
+
+.formValues {
+    position: relative;
+    width: auto;
+    height: 18px;
+    margin: 10px;
+    padding: 4px;
+    background-color: lightblue;
+    filter: alpha(Opacity=80); opacity: 0.8;
+}
+
+.formInput {
+    position: absolute;
+    left: 150px;
+    width: 215px;
+    text-align: center;
+}
+
+.formInput2 {
+    position: absolute;
+    left: 150px;
+    width: 220px;
+    text-align: center;
+}
+
+a.navigation {
+    border-width:4px 4px 0 4px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-style:ridge;
+    width: 120px;
+    height: 21px;
+    text-align: center;
+    color: goldenrod;
+    border-color: goldenrod;
+    display: inline-block;
+    float: left;
+    text-decoration: none;
+    background-color: slategray;
+
+    /* margin: 0 20px 0 0; */
+}
+
+a:hover {
+    color: silver;
+    border-color: silver;
+}
